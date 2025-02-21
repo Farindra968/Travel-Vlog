@@ -10,7 +10,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: [
+         
+        ]
       },
+      fontFamily: {
+        Poppins: ["Poppins"],
+        "Poppins-Medium": ["Poppins-Medium"],
+        "poppins-semibold": ["Poppins-SemiBold"],
+        "poppins-bold": ["Poppins-Bold"],
+      }
     },
   },
   plugins: [],
