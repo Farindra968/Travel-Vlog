@@ -29,7 +29,7 @@ const servicesInfo = [
 ]
 const Services = () => {
     return (
-        <section className='flex justify-between gap-6 '>
+        <section className='max-w-screen-lg mx-auto flex justify-between gap-6 '>
             <div className='w-52'>
                 <h1 className='text-[16px] font-Poppins-Medium capitalize  text-pink-500'>What we Serve</h1>
                 <h1 className='font-poppins-semibold text-3xl leading-10'>Top Values For You</h1>

@@ -1,15 +1,18 @@
 import HeroSection from "@/components/home/HeroSection";
 import Services from "@/components/home/Services";
+import vector from '@/assets/images/vector.svg'
+import Image from "next/image";
 
 export default function Home() {
   return (
     <section className="">
-      <section className="max-w-screen-lg mx-auto p md:pt-20">
+      <div className="md:pt-20 relative">
         <HeroSection />
-        <div className="py-8">
+        <Image src={vector} width={500} height={500} alt="Travel Vlog" className="absolute bottom-16 right-0"/>
+      </div>
+      <div className="py-8">
           <Services/>
         </div>
-      </section>
     </section>
   );
 }

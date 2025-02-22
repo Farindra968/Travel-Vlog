@@ -15,6 +15,7 @@ import patner2 from "@/assets/images/patner2.svg";
 import patner3 from "@/assets/images/patner3.svg";
 import patner4 from "@/assets/images/patner4.svg";
 import patner5 from "@/assets/images/patner5.svg";
+import vector from "@/assets/images/vector.svg";
 
 const patnerInfo = [
   {
@@ -41,14 +42,14 @@ const patnerInfo = [
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="max-w-screen-lg mx-auto">
       <div className="grid md:grid-cols-3 p-6">
         <div className="">
           <button className="flex items-center gap-2 px-5 py-3 shadow-lg rounded-full shadow-pink-200 text-sm font-Poppins-Medium text-pink-600  ">
             Explore the World! <MdOutlineTravelExplore />
           </button>
           <div className="pt-10">
-            <h1 className="font-poppins-bold text-4xl lg:text-5xl text-center md:text-left  leading-[50px] md:leading-[60px] md:tracking-wide">
+            <h1 className="font-poppins-bold text-4xl lg:text-5xl text-center md:text-left  leading-[60px] md:leading-[60px] md:tracking-wide">
               Travel <span className="text-pink-500">top destionation</span> of
               the world
             </h1>
@@ -122,7 +123,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="py-12">
+      <div className="py-8 md:py-12">
         <div className="flex flex-wrap md:flex-nowrap justify-center items-center space-x-24">
           {patnerInfo.map((item, index) => (
             <div key={index}>
@@ -136,7 +137,8 @@ const HeroSection = () => {
             </div>
           ))}
         </div>
-      </div>
+          </div>
+
     </section>
   );
 };
