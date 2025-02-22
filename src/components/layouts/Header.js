@@ -31,7 +31,7 @@ const Header = () => {
     },
   ];
   return (
-    <header className="w-full bg-white bg-opacity-20">
+    <header className="w-full z-50 sticky top-0 bg-white bg-opacity-95">
       <section className="max-w-screen-lg mx-auto py-4 flex justify-between items-center">
         {/* Website Logo */}
         <div>
