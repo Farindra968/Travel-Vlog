@@ -48,21 +48,21 @@ const HeroSection = () => {
 
           <div className="pt-6 md:w-80">
             <h1 className="text-center flex items-center justify-center md:justify-start py-3 md:py-0 gap-3 font-Poppins-Medium text-[18px] text-pink-500">Our Experience <MdOutlineTravelExplore /></h1>
-            <h1 className=" font-poppins-bold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide">
+            <h1 className=" font-poppins-bold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide dark:text-gray-100">
               Travel <span className="text-pink-500">top destionation</span> of
               the world
             </h1>
           </div>
           <div className="text-center md:text-left">
-            <p className=" text-gray-500 text-sm mt-5 font-Poppins">
+            <p className=" text-gray-500 text-sm mt-5 font-Poppins dark:text-gray-200">
               Where adventure meets comfort. We create unforgettable travel
               experiences
             </p>
             <div className="py-4 space-x-4">
-              <button className="font-Poppins-Medium text-white text-[14px] bg-indigo-700 px-4 py-2 rounded-2xl shadow-lg shadow-indigo-400">
+              <button className="font-Poppins-Medium text-white text-[14px] bg-indigo-700 px-4 py-2 rounded-2xl shadow-lg shadow-indigo-400 dark:shadow-indigo-500">
                 Get Started
               </button>
-              <button className="inline-flex items-center gap-4 font-Poppins-Medium text-[14px] text-indigo-700 px-4 py-2 rounded-2xl shadow-lg border border-indigo-200">
+              <button className="inline-flex items-center gap-4 font-Poppins-Medium text-[14px] text-indigo-700 px-4 py-2 rounded-2xl shadow-lg border border-indigo-200 dark:text-indigo-200">
                 <MdPlayCircle className="text-[14px]" /> Watch Demo
               </button>
             </div>
@@ -80,6 +80,7 @@ const HeroSection = () => {
                 height={50}
                 alt={item.label}
                 title={item.label}
+                className="dark:fill-gray-200"
               />
             </div>
           ))}

@@ -25,31 +25,33 @@ const HeroSection2 = () => {
       <div className="grid md:grid-cols-2  md:place-items-end px-6 lg:px-1">
         <div className="">
           <div className="pt-4">
-          <h1 className="font-Poppins-Medium text-center md:text-left  text-[18px] text-pink-500">
-            Our Experience
-          </h1>
-            <h1 className=" font-poppins-semibold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide">
+            <h1 className="font-Poppins-Medium text-center md:text-left  text-[18px] text-pink-500">
+              Our Experience
+            </h1>
+            <h1 className=" font-poppins-semibold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide dark:text-gray-200">
               Crafting Unforgettable Adventures
             </h1>
           </div>
           <div className="text-center md:text-left">
-            <p className="md:w-[400px] text-gray-500 mt-2 text-[14px] font-Poppins">
+            <p className="md:w-[400px] text-gray-500 mt-2 text-[14px] font-Poppins dark:text-gray-300">
               We excel in curating remarkable journeys, specializing in outdoor
               destinations around the globe. With a wealth of experience, we
               bring adventures to life and invite you to embark on your own. The
               call of nature awaits—begin your adventure today!
             </p>
             <div className="py-4 space-x-4">
-                          <div className="flex justify-center items-center gap-2">
-                          {experienceData.map((item, index) => (
-                <p key={index}>
-                  <span className=" flex flex-col font-poppins-semibold text-3xl text-pink-500">
-                    {item.value}
-                  </span>
-                  <span className="font-Poppins  p-4 md:px-0">{item.info}</span>
-                </p>
-              ))}
-                </div>
+              <div className="flex justify-center items-center gap-2">
+                {experienceData.map((item, index) => (
+                  <p key={index}>
+                    <span className=" flex flex-col font-poppins-semibold text-3xl text-pink-500">
+                      {item.value}
+                    </span>
+                    <span className="font-Poppins  p-4 md:px-0 dark:text-gray-200">
+                      {item.info}
+                    </span>
+                  </p>
+                ))}
+              </div>
             </div>
           </div>
         </div>
