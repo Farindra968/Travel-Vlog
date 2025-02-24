@@ -125,7 +125,7 @@ const Header = () => {
           </button>
           <div onClick={switchTheme} class=" inline-flex cursor-pointer items-center">
             <buttom className="flex items-center  bg-gray-400 w-12 h-7 rounded-full p-1">
-              <p className={`flex items-center justify-center w-6 h-6 rounded-full bg-white ${theme === LIGHT_MODE ? 'translate-x-0 duration-700 ' : 'translate-x-full duration-700'}`}>
+              <p className={`flex items-center justify-center w-6 h-6 rounded-full bg-white ${theme === LIGHT_MODE ? 'translate-x-0 duration-700 ' : 'translate-x-4 duration-700'}`}>
                 {theme === LIGHT_MODE ? <FaSun/>:<FaMoon/>}
               </p>
             </buttom>
