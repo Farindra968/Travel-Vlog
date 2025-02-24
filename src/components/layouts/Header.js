@@ -36,7 +36,7 @@ const Header = () => {
     },
   ];
   return (
-    <header className="w-full z-50 sticky top-0 bg-white bg-opacity-95 dark:bg-gray-800 dark:border-b-2 dark:bg-opacity-95 dark:border-gray-600">
+    <header className="w-full z-50 bg-white bg-opacity-95 dark:bg-gray-800 dark:border-b-2 dark:bg-opacity-95 dark:border-gray-600">
       <section className="max-w-screen-lg mx-auto py-4 px-4 flex justify-between items-center">
         {/* Website Logo */}
         <div>

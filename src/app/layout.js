@@ -1,5 +1,7 @@
 import "./globals.css";
 import Headers from '@/components/layouts/Header'
+import MainLayout from "@/layout/MainLayout";
+import MainProvider from "@/redux/MainProvider";
 
 
 export const metadata = {
@@ -11,10 +13,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased dark`}
       >
-        <Headers/>
-        {children}
+        <MainProvider>
+          <MainLayout>{children}</MainLayout>
+        </MainProvider>
       </body>
     </html>
   );
