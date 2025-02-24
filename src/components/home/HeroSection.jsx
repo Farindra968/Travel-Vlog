@@ -71,7 +71,7 @@ const HeroSection = () => {
         <HeroImage icon1={<MdLocationPin/>} info1='Top Place' icon2={<FaHotel/>} info2='Top Hotels' hero3={hero3} height={400} width={400} bottom='bottom-[-2px]' right='right-3'/>
       </div>
       <div className=" md:py-12">
-        <div className="flex flex-wrap md:flex-nowrap justify-center items-center space-x-24">
+        <div className="grid grid-cols-3 md:grid-cols-5 gap-4 place-content-center place-items-center px-4 md:px-0">
           {patnerInfo.map((item, index) => (
             <div key={index}>
               <Image
