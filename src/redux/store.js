@@ -8,7 +8,7 @@ import { PERSIST } from "redux-persist";
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: [],
+  whitelist: ["userPreferences"],
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
