@@ -43,7 +43,7 @@ const patnerInfo = [
 const HeroSection = () => {
   return (
     <section className="max-w-screen-lg mx-auto">
-      <div className="grid md:grid-cols-2 md:place-items-end place-content-center md:px-6 ">
+      <div className="grid md:grid-cols-2 md:place-items-end place-content-center px-6 lg:px-1 ">
         <div className="">
 
           <div className="pt-6 md:w-80">

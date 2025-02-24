@@ -22,7 +22,7 @@ const HeroSection2 = () => {
   ];
   return (
     <section className="max-w-screen-lg mx-auto">
-      <div className="grid md:grid-cols-2  md:place-items-end px-4 md:px-0">
+      <div className="grid md:grid-cols-2  md:place-items-end px-6 lg:px-1">
         <div className="">
           <div className="pt-4">
           <h1 className="font-Poppins-Medium text-center md:text-left  text-[18px] text-pink-500">
@@ -46,7 +46,7 @@ const HeroSection2 = () => {
                   <span className=" flex flex-col font-poppins-semibold text-3xl text-pink-500">
                     {item.value}
                   </span>
-                  <span className="font-Poppins py-4 px-6 md:px-0">{item.info}</span>
+                  <span className="font-Poppins  p-4 md:px-0">{item.info}</span>
                 </p>
               ))}
                 </div>
