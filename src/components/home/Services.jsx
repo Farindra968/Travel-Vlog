@@ -31,7 +31,7 @@ const Services = () => {
     return (
         <section className='max-w-screen-lg mx-auto flex flex-col md:flex-row justify-between gap-6 '>
             <div className='w-auto md:w-56 flex flex-col justify-center md:justify-start items-center md:items-start'>
-                <h1 className='text-[16px] font-Poppins-Medium capitalize  text-pink-500'>What we Serve</h1>
+                <h1 className='text-[18px] font-Poppins-Medium capitalize  text-pink-500'>What we Serve</h1>
                 <h1 className='font-poppins-semibold text-3xl leading-10'>Top Values For You</h1>
                 <p className='font-Poppins text-sm text-gray-600 pt-3 md:pt-6'>Embrace life's vastness, venture forth,</p>
             </div>

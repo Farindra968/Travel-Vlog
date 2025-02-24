@@ -16,7 +16,7 @@ const HeroImage = ({icon1, icon2, info1, info2, hero3, height, width, top, right
                   <span className="text-orange-500 text-xl">{icon2}</span>
                   <p className="text-gray-800">{info2}</p>
             </div>
-            <div className="inline-flex items-center justify-center gap-4 bg-white  px-4  py-1 md:py-2 rounded-md absolute z-40 md:bottom-44  right-0 md:-right-20 shadow-sm shadow-pink-300 ">
+            <div className="inline-flex items-center justify-center gap-4 bg-white  px-4  py-1 md:py-2 rounded-md absolute z-40 lg:bottom-44  xs:right-0   xl:-right-20 shadow-sm shadow-pink-300 ">
               <div className="flex items-start justify-start text-2xl text-orange-500">
                 <HiSignal />
               </div>

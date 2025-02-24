@@ -24,10 +24,10 @@ const HeroSection2 = () => {
     <section className="max-w-screen-lg mx-auto">
       <div className="grid md:grid-cols-2  md:place-items-end px-4 md:px-0">
         <div className="">
-          <h1 className="font-Poppins-Medium text-[16px] text-pink-500">
+          <div className="pt-4">
+          <h1 className="font-Poppins-Medium text-center md:text-left  text-[18px] text-pink-500">
             Our Experience
           </h1>
-          <div className="pt-4">
             <h1 className=" font-poppins-semibold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide">
               Crafting Unforgettable Adventures
             </h1>
@@ -40,13 +40,13 @@ const HeroSection2 = () => {
               call of nature awaits—begin your adventure today!
             </p>
             <div className="py-4 space-x-4">
-                          <div className="flex items-center gap-2">
+                          <div className="flex justify-center items-center gap-2">
                           {experienceData.map((item, index) => (
                 <p key={index}>
                   <span className=" flex flex-col font-poppins-semibold text-3xl text-pink-500">
                     {item.value}
                   </span>
-                  <span className="font-Poppins py-4">{item.info}</span>
+                  <span className="font-Poppins py-4 px-6 md:px-0">{item.info}</span>
                 </p>
               ))}
                 </div>

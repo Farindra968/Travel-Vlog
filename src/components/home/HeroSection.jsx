@@ -43,10 +43,11 @@ const patnerInfo = [
 const HeroSection = () => {
   return (
     <section className="max-w-screen-lg mx-auto">
-      <div className="grid md:grid-cols-2 md:place-items-end place-content-center ">
+      <div className="grid md:grid-cols-2 md:place-items-end place-content-center md:px-6 ">
         <div className="">
-        <h1 className="text-center flex items-center gap-3 font-Poppins-Medium text-[16px] text-pink-500">Our Experience <MdOutlineTravelExplore /></h1>
+
           <div className="pt-6 md:w-80">
+            <h1 className="text-center flex items-center justify-center md:justify-start py-3 md:py-0 gap-3 font-Poppins-Medium text-[18px] text-pink-500">Our Experience <MdOutlineTravelExplore /></h1>
             <h1 className=" font-poppins-bold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide">
               Travel <span className="text-pink-500">top destionation</span> of
               the world
