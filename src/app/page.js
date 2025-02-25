@@ -6,6 +6,7 @@ import HeroSection2 from "@/components/home/HeroSection2";
 import ProductSlider from "@/components/home/ProductSlider";
 import ProductSection from "@/components/home/ProductSection";
 import HeroSection3 from "@/components/home/HeroSection3";
+import HeroSection4 from "@/components/home/HeroSection4";
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
       </div>
       <div className="md:py-6 relative">
         <HeroSection2 />
+      </div>
+      <div className="md:py-6 relative">
+        <HeroSection4 />
       </div>
     </section>
   );
