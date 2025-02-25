@@ -1,22 +1,22 @@
 import React from 'react'
-import product1 from '@/assets/images/product1.png'
+
 import Image from 'next/image'
 import blur_image from '@/assets/images/blur.svg'
 import { MdOutlineStarPurple500 } from 'react-icons/md'
 
-const ProductCard = ({name, price, location, rate}) => {
+const ProductCard = ({name, images, price, location, rate}) => {
   return (
     <div className="">
 
       <div className="relative aspect-[3/2] w-full overflow-hidden rounded-3xl">
         <Image
-          src={product1}
+          src={images}
           alt={name}
           layout="fill"
           objectFit="cover"
           className="h-full w-full"
         />
-        <div className='w-16 h-8 rounded-full bg-black bg-opacity-30 absolute top-4 right-4 flex items-center justify-center font-Poppins-Medium gap-2 text-gray-50  '><MdOutlineStarPurple500 className='text-yellow-500' /> {rate }</div>
+        <div className='w-16 h-8 rounded-full bg-black bg-opacity-50 absolute top-4 right-4 flex items-center justify-center font-Poppins-Medium gap-2 text-gray-50  '><MdOutlineStarPurple500 className='text-yellow-500' /> {rate }</div>
           </div>
 
           <div className='px-2 py-2'>

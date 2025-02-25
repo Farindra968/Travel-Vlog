@@ -21,16 +21,16 @@ export default function Home() {
       <div className="py-10">
           <ProductSlider/>
       </div>
-      <div className="pt-28 md:pt-10 pb-10 relative">
+      <div className="pt-28 md:pt-10 pb-10 ">
         <HeroSection3 />
       </div>
       <div className="py-10">
           <ProductSection/>
       </div>
-      <div className="md:py-6 relative">
+      <div className="md:py-6 ">
         <HeroSection2 />
       </div>
-      <div className="md:py-6 relative">
+      <div className="py-20 ">
         <HeroSection4 />
       </div>
     </section>

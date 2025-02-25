@@ -8,6 +8,24 @@ import vector2 from '@/assets/images/vector2.svg'
 import Image from 'next/image'
 
 const HeroSection3 = () => {
+    const OverviewData = [
+        {
+            value: '4k+',
+            label: 'Satisfied Customers'
+        },
+        {
+            value: '1000+',
+            label: 'Global Destinations'
+        },
+        {
+            value: '24/7',
+            label: 'Customer Support'
+        },
+        {
+            value: '100%',
+            label: 'Dedication'
+        }
+    ]
   return (
       <section className='max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center  items-end gap-6  px-6'>
           <div className='w-full flex justify-center md:justify-start '>
@@ -27,22 +45,16 @@ const HeroSection3 = () => {
                   <p className='font-Poppins text-sm text-gray-500 dark:text-gray-300'>We are dedicated to making your journey of discovery truly unforgettable. Our team of passionate travel experts is here to assist you in finding the destination of your dreams.</p>
               </div>
               <div className='grid grid-cols-2 gap-6'>
-                  <div className='flex flex-col justify-center items-center p-6 rounded-lg border-2 dark:border-gray-600'>
-                  <p className='font-poppins-bold text-pink-500 text-2xl'>4K+</p>
-                  <p className='font-Poppins text-sm text-center dark:text-gray-300'>Satisfied Customers</p>
-                  </div>
-                  <div className='flex flex-col justify-center items-center p-6 rounded-lg border-2 dark:border-gray-600'>
-                  <p className='font-poppins-bold text-pink-500 text-2xl'>4K+</p>
-                  <p className='font-Poppins text-sm text-center dark:text-gray-300'>Satisfied Customers</p>
-                  </div>
-                  <div className='flex flex-col justify-center items-center p-6 rounded-lg border-2 dark:border-gray-600'>
-                  <p className='font-poppins-bold text-pink-500 text-2xl'>4K+</p>
-                  <p className='font-Poppins text-sm text-center dark:text-gray-300'>Satisfied Customers</p>
-                  </div>
-                  <div className='flex flex-col justify-center items-center p-6 rounded-lg border-2 dark:border-gray-600'>
-                  <p className='font-poppins-bold text-pink-500 text-2xl'>4K+</p>
-                  <p className='font-Poppins text-sm text-center dark:text-gray-300'>Satisfied Customers</p>
-                  </div>
+                  {
+                      OverviewData.map((data, index) => (
+                        <div key={index} className='flex flex-col justify-center items-center p-4 rounded-lg border-2 dark:border-gray-600'>
+                              <p className='font-poppins-bold text-pink-500 text-2xl'>{data.value}</p>
+                        <p className='font-Poppins text-sm text-center dark:text-gray-300'>{data.label}</p>
+                        </div>
+                      ))
+                  }
+
+                  
               </div>
           </div>
     </section>

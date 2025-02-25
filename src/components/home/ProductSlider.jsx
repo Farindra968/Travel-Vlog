@@ -56,7 +56,7 @@ export const ProductSlider = () => {
         }}
         className="mySwiper"
       >
-        {productData.map((item) => (
+        {productData.slice(0,6).map((item) => (
           <SwiperSlide key={item.id}>
             <ProductCard {...item} />
           </SwiperSlide>
