@@ -47,7 +47,7 @@ const HeroSection = () => {
         <div className="">
 
           <div className="pt-6 md:w-80">
-            <h1 className="text-center flex items-center justify-center md:justify-start py-3 md:py-0 gap-3 font-Poppins-Medium text-[18px] text-pink-500">Our Experience <MdOutlineTravelExplore /></h1>
+            <h1 className="text-center flex items-center justify-center md:justify-start py-3 md:py-0 gap-3 font-Poppins-Medium text-[18px] text-pink-500">Explore the world <MdOutlineTravelExplore /></h1>
             <h1 className=" font-poppins-bold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide dark:text-gray-100">
               Travel <span className="text-pink-500">top destionation</span> of
               the world

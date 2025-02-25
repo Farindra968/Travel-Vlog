@@ -3,6 +3,9 @@ import Services from "@/components/home/Services";
 import vector from '@/assets/images/vector.svg'
 import Image from "next/image";
 import HeroSection2 from "@/components/home/HeroSection2";
+import ProductSlider from "@/components/home/ProductSlider";
+import ProductSection from "@/components/home/ProductSection";
+import HeroSection3 from "@/components/home/HeroSection3";
 
 export default function Home() {
   return (
@@ -13,6 +16,15 @@ export default function Home() {
       </div>
       <div className="py-10">
           <Services/>
+      </div>
+      <div className="py-10">
+          <ProductSlider/>
+      </div>
+      <div className="pt-16 pb-10 relative">
+        <HeroSection3 />
+      </div>
+      <div className="py-10">
+          <ProductSection/>
       </div>
       <div className="md:py-6 relative">
         <HeroSection2 />

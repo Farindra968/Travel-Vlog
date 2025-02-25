@@ -4,6 +4,8 @@ import { MdLocationPin } from "react-icons/md";
 import { FaHotel } from "react-icons/fa6";
 import hero4 from "@/assets/images/hero4.png";
 import HeroImage from "../ui/HeroImage";
+import { SubTitle } from "../ui/SubTitle";
+import Title from "../ui/Title";
 
 const HeroSection2 = () => {
   const experienceData = [
@@ -25,12 +27,8 @@ const HeroSection2 = () => {
       <div className="grid md:grid-cols-2  md:place-items-end px-6 lg:px-1">
         <div className="">
           <div className="pt-4">
-            <h1 className="font-Poppins-Medium text-center md:text-left  text-[18px] text-pink-500">
-              Our Experience
-            </h1>
-            <h1 className=" font-poppins-semibold text-4xl lg:text-5xl text-center md:text-left leading-tight lg:leading-tight tracking-normal md:tracking-wide dark:text-gray-200">
-              Crafting Unforgettable Adventures
-            </h1>
+            <SubTitle title='Our Experience'/>
+            <Title title='Crafting Unforgettable Adventures'/>
           </div>
           <div className="text-center md:text-left">
             <p className="md:w-[400px] text-gray-500 mt-2 text-[14px] font-Poppins dark:text-gray-300">
