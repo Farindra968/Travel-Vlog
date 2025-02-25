@@ -9,13 +9,13 @@ import Image from 'next/image'
 
 const HeroSection3 = () => {
   return (
-      <section className='max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center items-end gap-6  px-6'>
-          <div className='w-full flex justify-center '>
+      <section className='max-w-screen-lg mx-auto flex flex-col md:flex-row justify-center  items-end gap-6  px-6'>
+          <div className='w-full flex justify-center md:justify-start '>
               <div className='relative'>
               <Image src={circle_vector} width={400} height={400} alt='hero6' className=''/>
                   <Image src={hero6} width={230} height={230} alt='hero6' className='absolute bottom-0 left-20' />
                   <Image src={vector2} height={75} width={75} alt='vector2' className='absolute bottom-10 -left-5' />
-                  <Image src={vector2} height={100} width={100} alt='vector2' className='absolute top-0 md:-top-10 right-0 md:right-20' />
+                  <Image src={vector2} height={100} width={100} alt='vector2' className='absolute -top-10 right-0' />
                   <div className='w-10 h-10 rounded-full bg-orange-500 bg-opacity-80 absolute bottom-20 right-20'></div>
                   <div className='w-5 h-5 rounded-full bg-orange-500 bg-opacity-80 absolute top-20'></div>
               </div>
