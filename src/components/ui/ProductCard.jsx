@@ -16,7 +16,7 @@ const ProductCard = ({name, images, price, location, rate}) => {
           objectFit="cover"
           className="h-full w-full"
         />
-        <div className='w-16 h-8 rounded-full bg-black bg-opacity-50 absolute top-4 right-4 flex items-center justify-center font-Poppins-Medium gap-2 text-gray-50  '><MdOutlineStarPurple500 className='text-yellow-500' /> {rate }</div>
+        <div className='w-16 h-8 rounded-full bg-black/50 absolute top-4 right-4 flex items-center justify-center font-Poppins-Medium gap-2 text-gray-50  '><MdOutlineStarPurple500 className='text-yellow-500' /> {rate }</div>
           </div>
 
           <div className='px-2 py-2'>

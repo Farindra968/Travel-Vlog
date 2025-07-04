@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-Poppins: "Poppins";
+    --font-Poppins-Medium: "Poppins-Medium";
+    --font-poppins-semibold: "Poppins-SemiBold";
+    --font-poppins-bold: "Poppins-Bold"
+}
+
+/* Dark Mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
 
 @font-face {
   font-family: 'Poppins';

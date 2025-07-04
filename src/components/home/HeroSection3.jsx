@@ -47,7 +47,7 @@ const HeroSection3 = () => {
               <div className='grid grid-cols-2 gap-6'>
                   {
                       OverviewData.map((data, index) => (
-                        <div key={index} className='flex flex-col justify-center items-center p-4 rounded-lg border-2 dark:border-gray-600'>
+                        <div key={index} className='flex flex-col justify-center items-center p-4 rounded-lg border-2 border-gray-100 dark:border-gray-600'>
                               <p className='font-poppins-bold text-pink-500 text-2xl'>{data.value}</p>
                         <p className='font-Poppins text-sm text-center dark:text-gray-300'>{data.label}</p>
                         </div>

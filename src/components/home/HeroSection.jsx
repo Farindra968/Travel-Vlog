@@ -80,7 +80,7 @@ const HeroSection = () => {
                 height={50}
                 alt={item.label}
                 title={item.label}
-                className="dark:fill-gray-200"
+                className="dark:fill-gray-100"
               />
             </div>
           ))}
